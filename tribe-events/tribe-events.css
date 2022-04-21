@@ -1,0 +1,35 @@
+.tribe-events-event-thumb img
+{
+ width:100%;
+ height:83px; 
+}
+#tribe-bar-form 
+{
+	background:#ffffff;
+}
+#tribe-bar-form .tribe-bar-submit input[type=submit]
+{
+	background:#009ee3;
+}
+#tribe-events .tribe-events-button, .tribe-events-button
+{
+	background: #91dc0d;
+}
+#tribe-events-content .tribe-events-calendar td
+{
+	height:150px;
+	
+	/*overflow:hidden;*/
+	/*max-height:200px;*/
+}
+@media screen and (max-width: 768px)
+{
+	#tribe-events-content .tribe-events-calendar td
+{
+	height:48px;
+	
+	/*overflow:hidden;*/
+	/*max-height:200px;*/
+}
+	
+}

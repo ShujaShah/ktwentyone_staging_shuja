@@ -1,0 +1,136 @@
+/* ~ Tabs ~
+--------------------------------------------------------*/
+.vc_tta.vc_tta-spacing-1 li.vc_tta-tab{
+    border: none;
+    border-radius: 0;
+    margin-right: 0;
+    background: #fff;
+    font-weight: normal;
+}
+.vc_tta.vc_general li.vc_tta-tab>a{
+    padding: 0.5em 1em;
+    border:0 none;
+    color: #333;
+    background-color: transparent;
+    font-size: 22px;
+    border-radius: 0;
+}
+.vc_tta.vc_general li.vc_tta-tab>a:hover{
+	background-color: #009ee3;
+	color: #fff;
+}
+.vc_tta.vc_general li.vc_tta-tab.vc_active>a{
+    background-color: #009ee3;
+    color: #fff;
+    border:0 none;
+}
+.vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tabs-list{
+	border-bottom: 1px solid #009ee3;
+}
+.vc_tta.vc_general.vc_tta-tabs .vc_tta-panels .vc_tta-panel-body{
+	background: #fff;
+	border:0 none;
+    color: #333;
+    font-size: 18px;
+    line-height: 35px;
+}
+.vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels{
+	background: #fff;
+	border:0 none;
+}
+/* ~ Pageable Container ~
+--------------------------------------------------------------------------*/
+.vc_general.vc_tta-pageable.vc_tta-has-pagination .vc_pagination .vc_pagination-trigger {
+    border-color: #009EE3;
+    height: 13px;
+    width: 13px;
+}
+.vc_general.vc_tta-pageable.vc_tta-has-pagination .vc_pagination .vc_pagination-trigger:hover,
+.vc_general.vc_tta-pageable.vc_tta-has-pagination .vc_pagination .vc_active .vc_pagination-trigger {
+    background-color: #009EE3;
+}
+
+/* ~ Image Gallery ~
+--------------------------------------------------------*/
+.entry-content ol.flex-control-nav {
+	margin-left: 0;
+}
+
+/* ~ Buttons ~
+-------------------------------------------------------------------------------------*/
+.vc_btn3-container .vc_general.vc_btn3{
+	padding: 6px 14px;
+	border:0 none;
+	border-radius: 3px;
+	font-size: 16px;
+    font-weight: 300;
+    background: #009EE3 none;
+    color: #fff;
+}
+.vc_btn3-container.wdm-green-btn .vc_general.vc_btn3,
+.vc_btn3-container .vc_general.vc_btn3:hover{
+    background: #91dc0d;
+    color: #333;
+}
+.vc_btn3-container.wdm-green-btn .vc_general.vc_btn3:hover{
+	background-color: #009ee3;
+    color: #fff;
+}
+
+/* ~ Image Carousel ~ 
+--------------------------------------------------------------------*/
+.vc_images_carousel .vc_carousel-control .icon-prev,
+.vc_images_carousel .vc_carousel-control .icon-next{
+	background: #fff;
+	border-radius: 50%;
+}
+.vc_images_carousel .vc_carousel-control span.icon-prev:before,
+.vc_images_carousel .vc_carousel-control span.icon-next:before{
+	top: -12px;
+}
+
+/* ~ Accordion ~
+----------------------------------------------*/
+.vc_general.vc_tta-accordion .vc_tta-panel h4.vc_tta-panel-title>a{
+	background: #fff;
+	border:0 none;
+	border-radius: 0;
+	color: #333;
+	margin-top: 1px;
+    padding: 11px 37px 11px 11px;
+}
+.vc_general.vc_tta-accordion .vc_tta-panel .vc_tta-panel-heading{
+	border-radius: 0;
+	border:0 none;
+	border-bottom: 1px solid #BDBDBD;
+}
+.vc_general.vc_tta-accordion .vc_tta-panel:not(:last-child) .vc_tta-panel-heading,
+.vc_general.vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-panel-heading{
+	margin-bottom: 0;
+	border-bottom: 1px solid #BDBDBD;
+}
+.vc_general.vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-panel-body{
+	background: #fff;
+	color: #333;
+	font-size: 18px;
+	border:0 none;
+}
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-right .vc_tta-controls-icon{
+	right: 14px;
+}
+
+/* ~ CTA ~ 
+------------------------------------------------*/
+.vc_cta3-container div.vc_general.vc_cta3{
+	box-shadow: 0 0px 3px 1px rgba(0, 0, 0, 0.2);
+	border:0 none;
+	border-radius: 0;
+	background: #fff;
+}
+
+/* ~ WP Tags ~
+--------------------------------------------------------------------*/
+.tagcloud a{
+	font-size: 1em !important;
+    margin-right: 10px;
+}
