@@ -1,0 +1,134 @@
+.page .entry-title{
+    display:none;
+}
+
+.site-header > .wrap {
+    display: none;
+}
+
+.footer-widgets{
+    display: none;
+}
+
+
+hr {
+    border: 0;
+    border-collapse: collapse;
+    border-top: 8px solid #fbe70c;
+    clear: both;
+    margin: 1em 0;
+    margin-top:-26px;
+    z-index:10;
+}
+
+
+
+/*css for page*/
+
+li{
+    list-style-image: url("http://5a749dfbc4.nxcli.net/wp-content/uploads/2022/04/bullet-2.png");
+    padding: .3em 0 1em 40px;
+    }
+    
+.box {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color:#ffffff;
+  margin-left:-120px;
+  margin-top:-20px;
+  font-size:22px;
+  padding-top:80px;
+  padding-left:80px;
+}
+
+#video{
+    z-index:999;
+}
+
+#content{
+    z-index:99;
+}
+#sticky{
+    position: fixed !important;
+    z-index:99999999999999999;
+    left: 16px !important;
+    border: 1px solid grey;
+}
+
+.woo-sctr-shortcode-countdown-unit-wrap {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 5px;
+    margin-top: -60px !important;
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight:700;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 10px #fbe70c;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+  
+}
+.button1:hover {
+  background-color: #fbe70c;
+  color: black !important;
+  border: 2px solid #fbe70c;
+  transform: translate( 8px, 8px);
+  box-shadow:none;
+  
+}
+
+.vc_row-has-fill>.vc_column_container>.vc_column-inner {
+     padding-top: 1px; 
+}
+
+.vc_row.vc_row-o-content-middle:not(.vc_row-o-equal-height)>.vc_column_container {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.vc_custom_1650956738658 {
+    margin-top: 600px;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .vc_column_container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.vc_single_image-img{
+    margin-left:0px !important;
+}
+
+.box{
+    margin-left:10px !important;
+    margin-top:10px !important;
+}
+.vc_custom_1650956738658 {
+    margin-top: 600px !important;
+    display: block !important;
+}
+
+}
+
+#cookie-notice{
+    display:none;
+}
