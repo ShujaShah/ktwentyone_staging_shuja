@@ -1,0 +1,234 @@
+@import "https://www.amyporterfield.com/wp-content/themes/AP_2017/assets/css/program-lbs-2021.css?ver=20210127d";
+@import "https://use.typekit.net/fcq1stx.css";
+/* Event Page */
+.ui-widget,
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited,
+a.ui-button,
+a:link.ui-button,
+a:visited.ui-button,
+.ui-button,
+.event-page,
+::placeholder,
+.ew-page-footer {
+font-family:'GreyCliff Light', sans-serif;
+color:#333;
+}
+.event-page .call_to_action.event_image1 {
+position: relative;
+}
+.event-page .offer-polss-tabs ul li.active a {
+background:#6B939B !important;
+}
+textarea:focus ~ .floating-label,
+input:focus ~ .floating-label, .floating-value .floating-label {
+color:#6B939B !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a.ui-tabs-anchor {
+border-color:#6B939B;
+}
+input,
+select,
+textarea {
+border:1.5px solid #333;
+}
+input:focus,
+select:focus,
+textarea:focus {
+border:1.5px solid #6B939B;
+}
+.ew-event-right-con .offer-polss-tabs,
+#showOffer {
+display:none !important;
+}
+.ew-event-tabs #tabs .ui-tabs-panel form button#send_question span {
+color:#333;
+}
+/* Shared button styles */
+.ew-event-tabs #tabs .ui-tabs-panel form button#send_question,
+.event-page button.custom-btn {
+display:block;
+font-family:'Alt Gothic No 2', sans-serif;
+font-size:20px !important;
+color:#333 !important;
+border-radius:0px !important;
+letter-spacing:1px;
+position: relative;
+text-shadow:none;
+line-height:1;
+z-index:5 !important;
+width:100%;
+padding: 15px 20px;
+height: auto;
+text-transform: uppercase;
+transition:0.25s;
+}
+.ew-event-tabs #tabs .ui-tabs-panel form button#send_question:hover span,
+.ew-event-tabs #tabs .ui-tabs-panel form button#send_question:hover,
+.event-page button.custom-btn:hover {
+box-shadow:none;
+color:#333 !important;
+}
+/* Question Button */
+.ew-event-tabs #tabs .ui-tabs-panel form button#send_question {
+background:#fff !important;
+border:1px solid #333 !important;
+}
+.ew-event-tabs #tabs .ui-tabs-panel form button#send_question:hover span,
+.ew-event-tabs #tabs .ui-tabs-panel form button#send_question:hover {
+background:#fbe70c !important;
+border:1px solid #fbe70c !important;
+}
+/* Enroll button */
+.event-page button.custom-btn {
+background:#fbe70c !important;
+border:1px solid #fbe70c !important;
+}
+.event-page button.custom-btn:hover {
+background:#fff !important;
+border:1px solid #333 !important;
+}
+.ew-event-tabs #tabs .ui-tabs-panel form button#send_question::before,
+.event-page button.custom-btn:hover::before {
+opacity:0;
+}
+#delayed_events_text > div:last-child,
+div#delayed_events {
+box-shadow:none !important;
+border-radius: 0px !important;
+border:none !important;
+}
+#delayed_events_text > div {
+padding:0 !important;
+}
+.event-page .flex-grow::after {
+display:none;
+}
+/* Custom HTML added via jQuery */
+.aboutAmy {
+margin:auto;
+clear:both;
+padding:30px 15px;
+}
+.amyQuestions {
+clear:both;
+padding:20px 15px 5px 15px;
+}
+.amyQuestions,
+.amyQuestions p,
+.amyQuestions a {
+line-height:1.35;
+font-size:16px;
+}
+.amyQuestions a {
+text-decoration: underline;
+color: #333;
+position: relative;
+margin-top: -5px;
+display: inline-block;
+}
+.amyQuestions a:hover {
+color:#6b939b;
+}
+.aboutAmy__headline {
+font-family:'Mintsy';
+font-size:24px;
+}
+.aboutAmy__intro {
+font-size:16px;
+line-height:1.35;
+margin-bottom:12px;
+}
+.aboutAmy__pic {
+display:block;
+max-width:100px;
+margin:auto;
+}
+.aboutAmy__facts {
+font-family:'Alt Gothic No 2', sans-serif;
+text-transform: uppercase;
+font-size:18px;
+display:flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+border-top:1px solid #333;
+border-bottom:1px solid #333;
+padding:10px;
+}
+.aboutAmy__facts p {
+padding:5px 8px;
+flex:1;
+}
+.aboutAmy__facts p span {
+display:block;
+}
+.aboutAmy__facts p span:first-of-type {
+color:#6b939b;
+}
+.amyLBS a,
+.amyLBS img {
+display: block;
+margin:auto;
+}
+.amyLBS img {
+max-width: 50%;
+height:auto;
+}
+@media (min-width: 1024px){
+.ew-event-tabs #tabs .ui-tabs-panel form button#send_question {
+font-size:22px !important;
+}
+.ew-event-left-con {
+padding:5% 2.5%;
+}
+.event-page .top_nav {
+padding-top:0;
+}
+.event-page button.custom-btn {
+padding:30px 20px;
+font-size:32px !important;
+}
+.aboutAmy {
+padding:20px 20px 10px 20px;
+}
+.aboutAmy__facts {
+font-size:20px;
+padding:10px 20px;
+}
+/* Offers */
+#delayed_events_text {
+display: flex;
+justify-content: space-between;
+}
+#delayed_events_text > * {
+max-width:49%;
+}
+#delayed_events_text > :only-of-type {
+max-width:100%;
+}
+}
+@media (min-width: 1700px){
+.event-page .top_nav {
+padding-top:5%;
+}
+.aboutAmy {
+padding:10% 30px;
+}
+.aboutAmy__pic {
+max-width:30%;
+}
+.aboutAmy__headline {
+font-size:36px;
+}
+.aboutAmy__intro {
+font-size:18px;
+}
+.aboutAmy__facts {
+font-size:24px;
+}
+.aboutAmy__facts p {
+padding:15px;
+}
+}
